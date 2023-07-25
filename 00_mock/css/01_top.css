@@ -1,30 +1,25 @@
-header {
-    text-align: center;
+/* 下線出現ボタン */
+.underline {
+    position: relative;
+
+    /* カーソル */
+    cursor: pointer;
+    cursor: hand;
 }
 
-.test1 {
-    height: 20%;
-    font-size: large;
+/* 下線出現ボタン 疑似要素 */
+.underline::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: -2px;
+    left: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
 }
 
-.test2 {
-    height: 20%;
-    font-size: large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.test3 {
-    height: 20%;
-    font-size: large;
-    font-style: italic;
-}
-
-.test4 {
-    height: 20%;
-    font-size: large;
-    color: rebeccapurple;
-}
-
-footer {
-    text-align: center;
+/* 下線出現ボタン ホバー時 */
+.underline:hover::after {
+    width: 100%;
 }

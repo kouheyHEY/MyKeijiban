@@ -1,0 +1,13 @@
+/* ヘッダー */
+header {
+    /* 中央寄せ */
+    text-align: center;
+}
+
+/* ヘッダー メニューバー */
+#header-menubar {
+    /* 等間隔に横並びにする */
+    display: flex;
+    justify-content: space-evenly;
+
+}
