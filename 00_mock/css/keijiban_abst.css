@@ -2,4 +2,21 @@
 .keijiban-container {
     /* 余白 */
     margin: 10px 5px;
+    padding-bottom: 5px;
+}
+
+/* ケイジバンのタイトル */
+.keijiban-title {
+    /* 文字サイズ */
+    font-size: 1.25rem;
+
+}
+
+/* ケイジバン メイン要素 */
+.keijiban-main {
+    /* 横並び */
+    display: flex;
+    justify-content: space-between;
+    /* 文字サイズ */
+    font-size: 0.875rem;
 }
