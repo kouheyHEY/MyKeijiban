@@ -1,3 +1,17 @@
+/* ソート用ボタン */
+#keijiban-sort-bar {
+    /* 横並び */
+    display: flex;
+    /* 余白 */
+    margin: 5px 0;
+}
+
+.sort-button {
+    /* 余白 */
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 /* ケイジバンのブロック */
 .keijiban-container {
     /* 余白 */
